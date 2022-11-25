@@ -9,13 +9,13 @@ const Card = ({ card }) => {
         src={picture}
         alt=""
       />
-      <div className="absolute bottom-10 px-4">
+      <div className="absolute bottom-2 px-4">
         <h1 className="text-xl text-amber-200 font-semibold">Name: {name}</h1>
         <p className="text-slate-300">Age: {age}</p>
         <p className="text-slate-200">Gender: {gender}</p>
         <p className="text-slate-100">Email: {email}</p>
         <p className="text-slate-50">Phone: {phone}</p>
-        <p className="text-white">
+        <p className="text-black h-16 p-4 items-center rounded flex text-center font-semibold bg-amber-100">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>

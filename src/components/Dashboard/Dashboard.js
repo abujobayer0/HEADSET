@@ -62,9 +62,9 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div className="flex bg-amber-100 w-screen h-screen justify-center pt-20 gap-10 items-center flex-wrap">
+    <div className="flex bg-amber-100 w-screen h-full md:h-screen justify-center pt-20 gap-10 items-center flex-wrap">
       <div>
-        <LineChart width={500} height={300} data={data}>
+        <LineChart width={400} height={200} data={data}>
           <Line dataKey={"revenue"}></Line>
           <Line dataKey={"sell"}></Line>
           <Line dataKey={"investment"} stroke="#82ca9d"></Line>
@@ -76,8 +76,8 @@ const Dashboard = () => {
       </div>
       <div>
         <AreaChart
-          width={500}
-          height={300}
+          width={400}
+          height={200}
           data={data}
           margin={{
             top: 10,
@@ -122,8 +122,8 @@ const Dashboard = () => {
       </div>
       <div>
         <BarChart
-          width={500}
-          height={300}
+          width={400}
+          height={200}
           data={data}
           margin={{
             top: 5,

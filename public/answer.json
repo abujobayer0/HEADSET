@@ -1,0 +1,20 @@
+[
+    {
+        "question": "What is a Context Api ?",
+        "answer": "Context is a built-in API introduced in ​​React 16.3. It makes it possible to pass data from parent to children nested deep down the component tree directly, instead of passing it down through a chain of props.",
+        "id": 1
+     
+    },
+    {
+        "question": "What is Semantic Tag?",
+        "answer": "The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content. ",
+        "id": 2
+     
+    },
+    {
+        "question": "What is the difference between Inline or Inline-Block Elements  ?",
+        "answer": "Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element. Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.",
+        "id": 3
+     
+    }
+]
